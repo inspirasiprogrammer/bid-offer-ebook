@@ -1,51 +1,46 @@
-# Bid–Offer & Order Book — E-book
+# 📘 Bid–Offer & Order Book — E-book v1.0.0
 
-Repositori ini berisi e-book **Bid–Offer & Order Book** yang dapat dibaca langsung di GitHub Pages (Docsify) atau diunduh sebagai ZIP/PDF/EPUB.
+![Cover](docs/assets/cover.png)
 
-## 🔗 Tautan Utama
-- **Baca Online (GitHub Pages)**: `https://inspirasiprogrammer.github.io/bid-offer-ebook/` *(aktif setelah kamu mengaktifkan GitHub Pages dan push folder `/docs`)*
-- **Unduh versi ZIP**: (lihat rilis atau gunakan file ZIP yang saya kirim di obrolan ini)
+Panduan lengkap membaca **Bid–Offer & Order Book** untuk memahami dinamika pasar saham secara mikro: dari antrean bid/offer hingga psikologi di balik eksekusi harga.
 
-## 📦 Struktur
+📅 **Rilis:** v1.0.0  
+👤 **Penulis:** Irwan Syahputra (@inspirasiprogrammer)  
+🧾 **Lisensi:** MIT  
+🌐 **Baca Online:** [inspirasiprogrammer.github.io/bid-offer-ebook](https://inspirasiprogrammer.github.io/bid-offer-ebook)
+
+---
+
+## 🔍 Deskripsi
+E-book ini menjelaskan **cara membaca bid–offer dan order book** dengan pendekatan praktis. Materi disusun bertahap dari dasar hingga tingkat lanjut, dilengkapi studi kasus nyata pasar Indonesia.
+
+## 🧩 Bab Utama
+1. Pendahuluan  
+2. Fondasi Konsep  
+3. Bid–Offer  
+4. Order Book  
+5. Strategi Eksekusi  
+6. Manajemen Risiko  
+7. Latihan & Praktik  
+8. Advanced Topics  
+9. Studi Kasus Pasar Indonesia  
+10. Panduan Real-Time & Tools
+
+---
+
+📦 **Struktur Folder**
 ```
 /docs
   ├── index.html
   ├── _sidebar.md
   ├── README.md
-  ├── 00-pendahuluan.md
-  ├── 01-fondasi-konsep.md
-  ├── 02-bid-offer.md
-  ├── 03-order-book.md
-  ├── 04-strategi-eksekusi.md
-  ├── 05-manajemen-risiko.md
-  ├── 06-latihan-praktik.md
-  ├── 07-advanced-topics.md
-  ├── 08-lampiran-template.md
+  ├── 00–10-bab.md
   └── assets/
-      └── .gitkeep
+      ├── cover.png
+      └── icon.svg
 LICENSE
 CHANGELOG.md
-EDITING_CHECKLIST.md
 ```
 
-## ▶️ Cara Baca Lokal
-Tanpa instalasi khusus — cukup buka `docs/index.html` di browser; atau jalankan server statis:
-```
-python3 -m http.server -d docs 3000
-# lalu buka http://localhost:3000
-```
-
-## 🚀 Deploy ke GitHub Pages
-1. Commit & push ke branch `main`.
-2. Di **Settings → Pages**, set **Source: `main`** dan **Folder: `/docs`**.
-3. Tunggu build selesai; situs akan tayang di `https://<username>.github.io/bid-offer-ebook/`.
-
-## 🧪 Konversi ke PDF/EPUB (opsional)
-Menggunakan Pandoc (pastikan terinstal):
-```
-pandoc docs/*.md -o BidOfferEbook.pdf
-pandoc docs/*.md -o BidOfferEbook.epub
-```
-
-## 📝 Lisensi
-MIT © 2025 Irwan Syahputra (@inspirasiprogrammer)
+> “Harga saham digerakkan oleh niat manusia — dan order book adalah jendela ke niat itu.”  
+> — Irwan Syahputra (@inspirasiprogrammer)
