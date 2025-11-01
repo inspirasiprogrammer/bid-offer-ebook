@@ -1,4 +1,4 @@
-- [Ringkasan](/)
+- [Ringkasan](README.md)
 - **Bab Utama**
   - [00. Pendahuluan](00-pendahuluan.md)
   - [01. Fondasi Konsep](01-fondasi-konsep.md)
@@ -11,5 +11,6 @@
   - [08. Lampiran & Template](08-lampiran-template.md)
   - [09. Studi Kasus Pasar Indonesia](09-studi-kasus.md)
   - [10. Panduan Real-Time & Tools](10-panduan-tools.md)
-- [Lisensi](../LICENSE)
-- [Changelog](../CHANGELOG.md)
+- **Lainnya**
+  - [Lisensi](../LICENSE)
+  - [Changelog](../CHANGELOG.md)
