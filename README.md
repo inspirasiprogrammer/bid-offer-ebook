@@ -1,22 +1,46 @@
-# 📘 Bid Offer Saham  
-### Membedah Psikologi Pasar dari Order Book  
-**Penulis:** Irwan Syahputra, S.Kom., M.Kom.  
-Lisensi: MIT / CC BY-SA 4.0  
-Proyek edukasi terbuka — untuk literasi pasar modal Indonesia.
+# 📘 Bid–Offer & Order Book — E-book v1.0.0
 
-## 🎯 Deskripsi
-Panduan menyeluruh untuk memahami **bid–offer**, jantung dari pergerakan harga saham.  
+![Cover](docs/assets/cover.png)
 
-## 📚 Daftar Isi
-1. [Pengantar Pasar Saham](01-pengantar-pasar-saham.md)
-2. [Konsep Dasar Bid & Offer](02-konsep-dasar-bid-offer.md)
-3. [Struktur Order Book](03-struktur-order-book.md)
-4. [Psikologi di Balik Angka](04-psikologi-di-balik-angka.md)
-5. [Pola & Ciri Akumulasi Saham](05-pola-dan-ciri-akumulasi.md)
-6. [Strategi Praktis Trading](06-strategi-praktis-trading.md)
-7. [Studi Kasus & Analisis](07-studi-kasus-dan-analisis.md)
-8. [Latihan Observasi Pasar](08-latihan-observasi-pasar.md)
-9. [Kesalahan Umum & Mindset Trader](09-kesalahan-umum-dan-mindset.md)
-10. [Penutup & Refleksi](10-penutup-dan-refleksi.md)
-- [Glosarium](glossary.md)
-- [Referensi](references.md)
+Panduan lengkap membaca **Bid–Offer & Order Book** untuk memahami dinamika pasar saham secara mikro: dari antrean bid/offer hingga psikologi di balik eksekusi harga.
+
+📅 **Rilis:** v1.0.0  
+👤 **Penulis:** Irwan Syahputra (@inspirasiprogrammer)  
+🧾 **Lisensi:** MIT  
+🌐 **Baca Online:** [inspirasiprogrammer.github.io/bid-offer-ebook](https://inspirasiprogrammer.github.io/bid-offer-ebook)
+
+---
+
+## 🔍 Deskripsi
+E-book ini menjelaskan **cara membaca bid–offer dan order book** dengan pendekatan praktis. Materi disusun bertahap dari dasar hingga tingkat lanjut, dilengkapi studi kasus nyata pasar Indonesia.
+
+## 🧩 Bab Utama
+1. Pendahuluan  
+2. Fondasi Konsep  
+3. Bid–Offer  
+4. Order Book  
+5. Strategi Eksekusi  
+6. Manajemen Risiko  
+7. Latihan & Praktik  
+8. Advanced Topics  
+9. Studi Kasus Pasar Indonesia  
+10. Panduan Real-Time & Tools
+
+---
+
+📦 **Struktur Folder**
+```
+/docs
+  ├── index.html
+  ├── _sidebar.md
+  ├── README.md
+  ├── 00–10-bab.md
+  └── assets/
+      ├── cover.png
+      └── icon.svg
+LICENSE
+CHANGELOG.md
+```
+
+> “Harga saham digerakkan oleh niat manusia — dan order book adalah jendela ke niat itu.”  
+> — Irwan Syahputra (@inspirasiprogrammer)
